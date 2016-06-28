@@ -24,7 +24,10 @@ header {
         transform:rotate(-11deg);
         -ms-transform:rotate(-11deg); /* IE 9 */
         -webkit-transform:rotate(-11deg);
-      }
+      } 
+  }
+  .logo:hover {
+    text-decoration: none;
   }
 
   .slogan {
