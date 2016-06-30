@@ -68,3 +68,22 @@ h2 {
 .about {
   font-family: 'fira_sansregular', sans-serif;
 }
+
+.modal {
+  font-family: 'fira_sansregular', sans-serif;
+}
+
+h2 span {
+  color: #dddddd;
+  font-family: 'fira_sansregular', sans-serif;
+}
+
+::selection {
+  background-color: #f84342;
+}
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
