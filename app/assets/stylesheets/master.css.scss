@@ -84,6 +84,7 @@ h2 span {
 
 @media (max-width: 750px) {
   .footer-blurb {
-    text-align: left;
+    text-align: left !important;
+    margin-top: 0px !important
   }
 }
