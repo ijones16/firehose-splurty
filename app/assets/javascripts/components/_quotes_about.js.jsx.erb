@@ -1,0 +1,45 @@
+var QuotesAbout = React.createClass({
+  propTypes: {
+    imgUrl: React.PropTypes.string
+  },
+  render: function(){
+    return(
+      <div>
+        <div className="col-xs-10 col-xs-offset-1 about">
+          <h1>About Splurty</h1>
+
+          <p>
+            Splurty was built by <a target="_blank" href="https://github.com/ijones16">Ian</a>
+          </p>
+          <br />
+          <p>
+            I build stuff!
+          </p>
+          <p>
+            If you want to learn more, go to my blog <a target="_blank" href="http://iantjones.com">iantjones.com</a>
+          </p>
+          <br />
+          <br />
+          <div className="col-xs-12 col-sm-4">
+            <img className="img-responsive" src="<%= asset_url('ian.jpeg') %>" alt="ian.png"/>
+            
+          </div>
+          <div className="col-xs-12 col-sm-5 col-sm-offset-1">
+            <h2>Ian Jones</h2>
+            <br />
+            <p>
+              Ian Jones is a web developer. He is planning on traveling the world this year.
+            </p>
+          </div>
+
+        </div>
+
+        <br className="clear" />
+        <br />
+        <br />
+        <br />
+        <br />
+      </div>
+    );
+  }
+});
